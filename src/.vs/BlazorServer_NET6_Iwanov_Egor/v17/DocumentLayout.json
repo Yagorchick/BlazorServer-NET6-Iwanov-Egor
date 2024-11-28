@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|c:\\users\\user\\desktop\\24\u0438\u0441-11-2\\yaga\\practice\\blazorserver_net6_iwanov_egor\\models\\yagorchickcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|solutionrelative:models\\yagorchickcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|solutionrelative:pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\auth\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|solutionrelative:auth\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CCE07F0-F0FE-4A73-A5D8-D83595B60179}|BlazorServer_NET6_Iwanov_Egor.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Pages\\Register.razor",
+              "RelativeToolTip": "Pages\\Register.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T12:14:13.42Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Pages\\Login.razor",
+              "RelativeToolTip": "Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T11:06:32.685Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Auth\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "Auth\\CustomAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Auth\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "Auth\\CustomAuthenticationStateProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:29:43.59Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T11:12:07.488Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T11:11:25.74Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T10:53:42.742Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T10:47:16.971Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "YagorchickContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Models\\YagorchickContext.cs",
+              "RelativeDocumentMoniker": "Models\\YagorchickContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\24\u0418\u0421-11-2\\Yaga\\Practice\\BlazorServer_NET6_Iwanov_Egor\\Models\\YagorchickContext.cs",
+              "RelativeToolTip": "Models\\YagorchickContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:42:32.613Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

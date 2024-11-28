@@ -1,0 +1,70 @@
+﻿@page "/"
+
+@using BlazorServer_NET6_Iwanov_Egor.Auth;
+@using BlazorServer_NET6_Iwanov_Egor.Models
+
+@inject IJSRuntime js
+@inject YagorchickContext Context
+
+<AuthorizeView>
+    <Authorized>
+        <h1>Welcome, @context.User.Identity.Name!</h1>
+    </Authorized>
+    <NotAuthorized>
+        <h1>Hello, young lady!</h1>
+    </NotAuthorized>
+</AuthorizeView>
+<AuthorizeView>
+    <Authorized>
+        <br /><br />
+        <button class="btn btn-outline-primary" @onclick="DisplayGreetingAlert">Greeting</button>
+    </Authorized>
+</AuthorizeView>
+
+<h1>Обучение ремесленным навыкам</h1>
+
+<nav>
+    <ul>
+        <li><NavLink href="/adduser">Регистрация</NavLink></li>
+        <li><NavLink href="/courses">Курсы</NavLink></li>
+        <li><NavLink href="/masters">Мастера</NavLink></li>
+        <li><NavLink href="/blog">Блог</NavLink></li>
+        <li><NavLink href="/contact">Контакты</NavLink></li>
+    </ul>
+</nav>
+
+<section id="hero">
+    <h2>Начните учиться сегодня!</h2>
+    <p>Изучите вязание, вышивку, работу с керамикой и другие виды рукоделия.</p>
+    <NavLink class="btn" href="/courses">Посмотреть курсы</NavLink>
+</section>
+
+<section id="courses">
+    <h2>Наши курсы:</h2>
+    <div class="course-list">
+        <div class="course">
+            <h3>Вязание для начинающих</h3>
+            <img src="https://as2.ftcdn.net/jpg/00/16/68/51/220_F_16685108_l1nLFY6r6jbklZ8u4pPNLJH18Oz9NEIz.jpg" alt="Вязание" />
+            <p>Научитесь основам вязания и создайте свои первые изделия.</p>
+        </div>
+        <div class="course">
+            <h3>Вышивка крестом</h3>
+            <img src="https://i.pinimg.com/236x/38/a6/4c/38a64c663f0ddb89265006829a890ffe.jpg?nii=t" alt="Вышивка" />
+            <p>Изучите техники вышивки и создайте уникальные дизайны.</p>
+        </div>
+    </div>
+</section>
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code {
+    [CascadingParameter]
+    private Task<AuthenticationState> authenticationState { get; set; }
+
+    private async Task DisplayGreetingAlert()
+    {
+        var authState = await authenticationState;
+        var message = $"Hello, {authState.User.Identity.Name}";
+        await js.InvokeVoidAsync("alert", message);
+    }
+}

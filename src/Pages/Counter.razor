@@ -1,0 +1,37 @@
+﻿@page "/counter"
+
+<PageTitle>Кликер</PageTitle>
+
+<h1>Кликер</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me (+)</button>
+<button class="btn btn-primary" @onclick="DecrementCount">Click me (-)</button>
+<button class="btn btn-primary" @onclick="MultiCount">Click me (*2)</button>
+<button class="btn btn-primary" @onclick="EraseCount">Click me (AC)</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    private void DecrementCount()
+    {
+        currentCount--;
+    }
+
+    private void MultiCount()
+    {
+        currentCount = currentCount * 2;
+    }
+
+    private void EraseCount()
+    {
+        currentCount = 0;
+    }
+}
+

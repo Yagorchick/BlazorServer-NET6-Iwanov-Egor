@@ -1,0 +1,73 @@
+﻿@page "/register"
+
+@using BlazorServer_NET6_Iwanov_Egor.Models
+@using Microsoft.EntityFrameworkCore
+
+@inject YagorchickContext Context
+@inject IJSRuntime js
+@inject NavigationManager navManager
+
+<h3>Регистрация</h3>
+
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 pt-4 pb-4 border">
+        <div class="mb-3 text-center">
+            <h3>Регистрация</h3>
+        </div>
+        <div class="mb-3">
+            <label>Имя</label>
+            <input @bind="model.FirstName" type="text" class="form-control" placeholder="Имя" />
+        </div>
+        <div class="mb-3">
+            <label>Имя пользователя</label>
+            <input @bind="model.Username" type="text" class="form-control" placeholder="Никнейм" />
+        </div>
+        <div class="mb-3">
+            <label>Email</label>
+            <input @bind="model.Email" type="email" class="form-control" placeholder="Email" />
+        </div>
+        <div class="mb-3">
+            <label>Пароль</label>
+            <input @bind="model.Password" type="password" class="form-control" placeholder="Пароль" />
+        </div>
+        <div class="mb-3 d-grid gap-2">
+            <button @onclick="register" class="btn btn-primary">Зарегистрироваться</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private class Model
+    {
+        public string FirstName { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+
+    private Model model = new Model();
+
+    private async Task register()
+    {
+        var existingUser = await Context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
+        if (existingUser != null)
+        {
+            await js.InvokeVoidAsync("alert", "Пользователь с таким Email уже существует.");
+            return;
+        }
+
+        var newUser = new User
+            {
+                FirstName = model.FirstName,
+                Username = model.Username,
+                Email = model.Email,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(model.Password)
+            };
+
+        Context.Users.Add(newUser);
+        await Context.SaveChangesAsync();
+
+        await js.InvokeVoidAsync("alert", "Регистрация прошла успешно!");
+        navManager.NavigateTo("/login");
+    }
+}

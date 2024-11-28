@@ -1,0 +1,33 @@
+﻿@page "/users"
+@using BlazorServer_NET6_Iwanov_Egor.Models
+@using Microsoft.EntityFrameworkCore
+@inject YagorchickContext context
+
+<h3>Пользователи:</h3>
+
+<div class="row">
+    @foreach (var user in users)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Код Пользователя: @user.UserId</h5>
+                    <img src="https://sun9-51.userapi.com/impf/c631926/v631926869/fb94/GPjNPeW5fa4.jpg?size=320x256&quality=96&sign=613e5a180d16a22584d923e7f4450b03&c_uniq_tag=TmPYthueAdw5lQjSgwpk6EHccQAnLGSi8rfuiG1iRKM&type=album" />
+                    <p class="card-text">Имя: @user.FirstName</p>
+                    <p class="card-text">Ник: @user.Username</p>
+                    <p class="card-text">Электронная Почта: @user.Email</p>
+                    <p class="card-text">Создано: @user.CreatedAt</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private List<User> users = new List<User>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await context.Users.ToListAsync();
+    }
+}
